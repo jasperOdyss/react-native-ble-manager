@@ -103,7 +103,7 @@ import React
     @objc public let name: String?
     @objc public let namePrefix: String?
     @objc public let manufacturerData: [UInt8]?
-    @objc public let minRssi: Int?
+    @objc public let minRssi: NSNumber?
 
     public init(serviceUUIDs: [String]? = nil, name: String? = nil, namePrefix: String? = nil, manufacturerData: [UInt8]? = nil, minRssi: Int? = nil) {
         self.serviceUUIDs = serviceUUIDs
