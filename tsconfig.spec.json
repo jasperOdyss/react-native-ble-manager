@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "module": "CommonJS",
+    "outDir": "./lib/typescript",
+    "rootDir": "./src",
+    "noEmit": false
+  },
+  "include": ["src/**/*.spec.ts", "src/**/*.spec.tsx"],
+  "exclude": ["node_modules"]
+}
